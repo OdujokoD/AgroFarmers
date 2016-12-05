@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "233311459915",
+    "firebase_url": "https://agro-transport.firebaseio.com",
+    "project_id": "agro-transport",
+    "storage_bucket": "agro-transport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233311459915:android:95439aab60852790",
+        "android_client_info": {
+          "package_name": "com.example.agrofarmers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233311459915-flgf2i4ljhvhqrp0le172b1am59a6d8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3u0OHnAxR3urAdxhnFQ-xTnFXXj4JbY8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

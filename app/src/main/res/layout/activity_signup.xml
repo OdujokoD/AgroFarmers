@@ -12,15 +12,42 @@
     tools:context="com.example.agrofarmers.SignupActivity">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/logo_dimen"
+        android:layout_height="@dimen/logo_dimen"
         android:src="@drawable/logo"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/logo_desc"
+        android:layout_marginBottom="10dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:textSize="25dp"
+        android:textSize="22sp"
+        android:fontFamily="@string/roboto_black"
+        android:textStyle="bold"
+        android:textColor="@color/sign_up"
         android:layout_gravity="center_horizontal"/>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        card_view:cardElevation="4dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>

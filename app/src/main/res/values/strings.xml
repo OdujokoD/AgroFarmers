@@ -28,6 +28,8 @@
     <string name="btn_cancel">CANCEL</string>
 
     <string name="logo_desc">app logo</string>
+    <string name="signin_mainCaption">Personal Information</string>
+    <string name="signin_subCaption">Please provide your unique details</string>
 
     <string-array name="transport_type">
         <item>Mini Van</item>

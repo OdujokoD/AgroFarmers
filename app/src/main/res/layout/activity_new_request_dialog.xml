@@ -106,7 +106,7 @@
             android:layout_height="wrap_content"
             android:text="@string/btn_cancel"
             android:background="@color/accent"
-            android:textColor="@color/icons"
+            android:textColor="@color/font_white"
             android:textSize="15sp"
             android:layout_weight="1"/>
 
@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/primary"
-            android:textColor="@color/icons"
+            android:textColor="@color/font_white"
             android:textSize="15sp"
             android:text="@string/btn_ok"/>
 

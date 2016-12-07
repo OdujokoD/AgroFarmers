@@ -6,6 +6,6 @@
     <color name="accent">#CDDC39</color>
     <color name="primary_text">#757575</color>
     <color name="secondary_text">#3D3D3D</color>
-    <color name="icons">#FFFFFF</color>
+    <color name="font_white">#FFFFFF</color>
     <color name="sign_up">#3a7f0d</color>
 </resources>

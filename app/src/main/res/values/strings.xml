@@ -31,6 +31,12 @@
     <string name="signin_mainCaption">Personal Information</string>
     <string name="signin_subCaption">Please provide your unique details</string>
     <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="details_main_caption">Farm Information</string>
+    <string name="details_sub_caption">Please provide your farm’s details</string>
+    <string name="prompt_farmer_name">Farmer\'s Name</string>
+    <string name="prompt_farm_name">Farm Name</string>
+    <string name="prompt_farm_address">Farm Address</string>
+    <string name="action_begin">Begin</string>
 
     <string-array name="transport_type">
         <item>Mini Van</item>

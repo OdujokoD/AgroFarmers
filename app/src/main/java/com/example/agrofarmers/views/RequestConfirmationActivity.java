@@ -1,4 +1,4 @@
-package com.example.agrofarmers;
+package com.example.agrofarmers.views;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import com.example.agrofarmers.R;
+import com.example.agrofarmers.views.RequestActivity;
 
 public class RequestConfirmationActivity extends AppCompatActivity {
 

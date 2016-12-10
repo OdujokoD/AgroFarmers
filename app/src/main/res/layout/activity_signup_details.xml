@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="#f4f4f4"
-    tools:context="com.example.agrofarmers.SignupActivity">
+    tools:context="com.example.agrofarmers.views.SignupActivity">
 
     <ImageView
         android:layout_width="@dimen/logo_dimen"

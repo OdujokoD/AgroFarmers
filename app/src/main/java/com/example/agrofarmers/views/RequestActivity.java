@@ -1,4 +1,4 @@
-package com.example.agrofarmers;
+package com.example.agrofarmers.views;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -12,13 +12,14 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Toast;
+
+import com.example.agrofarmers.R;
 
 import java.util.ArrayList;
 
-import controllers.DBHelper;
-import controllers.RecyclerAdapter;
-import model.Request;
+import com.example.agrofarmers.controllers.DBHelper;
+import com.example.agrofarmers.controllers.RecyclerAdapter;
+import com.example.agrofarmers.model.Request;
 
 public class RequestActivity extends AppCompatActivity implements RecyclerAdapter.ClickListener  {
 

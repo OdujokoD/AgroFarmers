@@ -11,25 +11,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".RequestConfirmationActivity"
-            android:parentActivityName=".RequestActivity" />
+            android:name=".views.RequestConfirmationActivity"
+            android:parentActivityName=".views.RequestActivity" />
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".RequestActivity" />
+            android:value=".views.RequestActivity" />
 
         <activity
-            android:name=".RequestActivity"
+            android:name=".views.RequestActivity"
             android:label="@string/title_activity_request"
             android:theme="@style/AppTheme" />
-        <activity android:name=".SignupActivity">
+        <activity android:name=".views.SignupActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignupDetailsActivity"></activity>
+        <activity android:name=".views.SignupDetailsActivity"></activity>
     </application>
 
 </manifest>

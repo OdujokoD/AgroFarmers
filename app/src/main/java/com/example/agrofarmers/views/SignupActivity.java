@@ -1,13 +1,15 @@
-package com.example.agrofarmers;
+package com.example.agrofarmers.views;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SignupDetailsActivity extends AppCompatActivity {
+import com.example.agrofarmers.R;
+
+public class SignupActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup_details);
+        setContentView(R.layout.activity_signup);
     }
 }

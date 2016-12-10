@@ -1,4 +1,4 @@
-package model;
+package com.example.agrofarmers.model;
 
 /**
  * Created by Larry on 6/16/2016.

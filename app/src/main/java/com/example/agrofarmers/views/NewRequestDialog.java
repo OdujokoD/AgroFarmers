@@ -1,10 +1,8 @@
-package com.example.agrofarmers;
+package com.example.agrofarmers.views;
 
 import android.app.Dialog;
-import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
@@ -14,7 +12,9 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import controllers.DBHelper;
+import com.example.agrofarmers.R;
+
+import com.example.agrofarmers.controllers.DBHelper;
 
 public class NewRequestDialog extends DialogFragment
 {

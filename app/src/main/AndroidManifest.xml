@@ -30,7 +30,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".views.SignupDetailsActivity" />
-        <activity android:name=".views.StockActivity"></activity>
+        <activity android:name=".views.StockFragment" />
+        <activity android:name=".views.MainActivity"></activity>
     </application>
 
 </manifest>

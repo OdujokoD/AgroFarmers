@@ -1,4 +1,4 @@
-package com.example.agrofarmers.controllers;
+package com.example.agrofarmers.model;
 
 import android.provider.BaseColumns;
 

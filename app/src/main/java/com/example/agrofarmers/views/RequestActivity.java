@@ -17,8 +17,8 @@ import com.example.agrofarmers.R;
 
 import java.util.ArrayList;
 
-import com.example.agrofarmers.controllers.DBHelper;
-import com.example.agrofarmers.controllers.RecyclerAdapter;
+import com.example.agrofarmers.helpers.DBHelper;
+import com.example.agrofarmers.helpers.RecyclerAdapter;
 import com.example.agrofarmers.model.Request;
 
 public class RequestActivity extends AppCompatActivity implements RecyclerAdapter.ClickListener  {

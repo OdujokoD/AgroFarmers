@@ -1,4 +1,4 @@
-package com.example.agrofarmers.controllers;
+package com.example.agrofarmers.helpers;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

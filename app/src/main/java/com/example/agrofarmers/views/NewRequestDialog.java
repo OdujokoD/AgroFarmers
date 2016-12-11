@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.example.agrofarmers.R;
 
-import com.example.agrofarmers.controllers.DBHelper;
+import com.example.agrofarmers.helpers.DBHelper;
 
 public class NewRequestDialog extends DialogFragment
 {

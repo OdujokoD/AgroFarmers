@@ -6,13 +6,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 
 import com.example.agrofarmers.R;
 
 public class StockFragment extends Fragment {
-
-    private FrameLayout frameLayout;
 
     public StockFragment(){
 
@@ -27,10 +24,8 @@ public class StockFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate layout for this fragment
-        frameLayout = (FrameLayout) inflater.inflate(R.layout.fragment_stock, container, false);
+        return inflater.inflate(R.layout.fragment_stock, container, false);
 
-
-        return frameLayout;
     }
 
     @Override
